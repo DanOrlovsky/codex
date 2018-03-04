@@ -71,6 +71,11 @@ Before syncing your fork with upstream, __make sure you've completed the previou
 
 ## Step 4: Create a branch
 
+## Step 5: Merge you branch with your local master
+
+## Step 6: Push to your fork on GitHub
+
+## Step 7: Submit a pull request to the owner of the repository.
 
 
 
