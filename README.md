@@ -1,2 +1,4 @@
 # codex
-prescriptive guidelines for working with strategic machines
+Prescriptive guidelines for working with strategic machines
+
+Open `protocol.md` to view guidelines.
