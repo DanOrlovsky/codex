@@ -25,14 +25,14 @@ Now that you've forked the repository to which you'll be contributing, you need 
 1. Open the Terminal in your computer.
 1. Navigate to the directory where you want to clone the repository
 1. Type `git clone` and then paste the URL copied in bullet point 3 of this section. It should look like this, with your GitHub username and the repository's name instead of `YOUR-USERNAME` and `YOUR-FORK`: 
-    -  `$ git clone https:://github.com/YOUR-USERNAME/YOUR-FORK`
+    -  `$ git clone https://github.com/YOUR-USERNAME/YOUR-FORK`
 1. Press __Enter__. This will start the cloning process.
 
 That's it! Now you have a local copy of your fork.
 
 ## Step 3: Configuring Git to sync your fork with the original repository.
 
-When you fork a repository, you're making a personal copy of the original. The original repository is called the _upstream_. Over time, the upstream will change; new files will be added (or removed), bugs will get fixed, updates will be made. Sooner or later you will, more than likely, need to update your fork in order to bring in changes from the upstream (it's also good practice to regularly sync your fork with the upstream repository)  [^3]. To do this, you can configure Git (in your terminal) to pull changes from the upstream repository into the local clone of your fork [^4].
+As stated previously, when you fork a repository, you're making a personal copy of the original. The original repository is called the _upstream_. Over time, the upstream will change; new files will be added (or removed), bugs will get fixed, updates will be made. Sooner or later you will, more than likely, need to update your fork in order to bring in changes from the upstream (it's also good practice to regularly sync your fork with the upstream repository)  [^3]. To do this, you can configure Git to pull changes from the upstream repository into the local clone of your fork [^4].
 
 After you're done creating a local copy of your fork:
 
