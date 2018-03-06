@@ -1,11 +1,13 @@
 # Protocol
 
+
 A simplified overview of the process:
 - [Fork the repository](https://help.github.com/articles/fork-a-repo/).
 - Add your code.
 - Submit a [_pull request_](https://help.github.com/articles/creating-a-pull-request/) to the project owner.
 
 ## Step 1: Forking a repository
+---
 
 By creating a "fork," you are producing [a personal copy](https://guides.github.com/activities/forking/) of someone else's project; in this case, a repository owned by Strategic Machines.
 
@@ -16,6 +18,7 @@ To fork a repository and get a working copy of it on your computer:
 That's it. You just forked the repository.
 
 ## Step 2: Create a local clone of your fork
+---
 
 Now that you've forked the repository to which you'll be contributing, you need to get a local copy of it on your computer. To achieve this: 
 
@@ -31,6 +34,7 @@ Now that you've forked the repository to which you'll be contributing, you need 
 That's it! Now you have a local copy of your fork.
 
 ## Step 3: Keeping your fork in sync with the original repository.
+---
 
 As stated previously, when you fork a repository, you're making a personal copy of the original. The original repository is called the _upstream_. Over time, the upstream will change; new files will be added (or removed), bugs will get fixed, updates will be made. Sooner or later you will, more than likely, need to update your fork in order to bring in changes from the upstream (it's also good practice to [regularly sync your fork](https://help.github.com/articles/fork-a-repo/#keep-your-fork-synced) with the upstream repository). To do this, you can [configure Git to pull changes](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) from the upstream repository into the local clone of your fork.
 
@@ -72,6 +76,7 @@ Before syncing your fork with the upstream, __make sure you've completed the pre
     - This will merge the changes from the `upstream/master` branch into your local `master` branch. By doing this, your clone's `master` branch will be synced with the upstream repository and you __won't lose local changes__.
 
 ## Step 4: Create a branch
+---
 
 Branches are ideal when you need to work on specific features or fixes of a project in an isolated environment. This allows you to safely experiment with ideas without affecting the `master` branch until your code is ready to be merged. When taking on __work items__ from the marketplace (link to markeplace?), you will be creating a _descriptively named branch_. In other words, a branch with a name that describes the work you will be doing in it; the feature you might be adding, the bug you might be fixing. 
 
@@ -85,6 +90,7 @@ To create a new branch for your workitem, make sure you're in the directory of y
 That's it! You're ready to start working on your new branch. For the sake of brevity and to keep these guidelines focus specific, we won't delve deeper into the subject of branching. However, if you want to learn more about it, we reccommend you read [this page](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) from the Git documentation.
 
 ## Step 5: Merge you branch with your local master
+---
 
 Once you're done developing in your branch, you can merge it __into__ your local `master` branch. To do this:
 
@@ -94,6 +100,7 @@ Once you're done developing in your branch, you can merge it __into__ your local
 1. Type `git merge work-item7` (in your case, the name of your branch); this will merge the branch you just worked on into your `master` branch.
 
 ## Step 6: Push to your fork on GitHub
+---
 
 Great, now the work you did in your branch has been implemented into your `master` branch. But this updated `master` exists only locally on your computer. If you go to __your fork__ of the originally repository on GitHub, you'll notice that your local changes aren't there... yet.
 
@@ -104,8 +111,9 @@ After you've succeeded in merging your branch into `master`, it's time to push t
 Now go back to your fork on GitHub and refresh the page; your local changes are now there! 
 
 ## Step 7: Submit a pull request to the owner of the repository.
+---
 
-Congratulations, the work you did on your computer is now on GitHub. Now you need to submit a pull request to Strategic Machines so that your work can be reviewed and, if approved, merged into the original repository.
+Congratulations, the work you did on your computer is now on GitHub. Now you need to [create a pull request](https://help.github.com/articles/creating-a-pull-request/) to Strategic Machines so that your work can be reviewed and, if approved, merged into the original repository. Pull requests are created to propose changes and collaborate to a repository. 
 
 1. On GitHub, go to your __Fork__.
 1. Under __Clone or download__, click on __Pull request__.
