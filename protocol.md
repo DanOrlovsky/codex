@@ -126,10 +126,19 @@ Pull requests are created to propose changes and collaborate to a repository, bu
 
 This means that the work you did on your computer has been uploaded to your fork on GitHub; at _this_ point, your fork is in sync with your clone. Great!
 
-Now you need to create and [submit a pull request](https://help.github.com/articles/creating-a-pull-request/) to Strategic Machines so that your work can be reviewed and, if approved, merged into the original repository (also known as the upstream). To submit a pull request:  
+Now you need to create and [submit a pull request](https://help.github.com/articles/creating-a-pull-request/) to Strategic Machines so that your work can be reviewed and, if approved, merged into the original repository (also known as the upstream). __Pay close attention__ to the following part: all forked repositories point to the original repository. When you go to create a pull request, GitHub will automically compare the `master` branch of the upstream repository with the `master` branch of your fork and look for changes. You can manually tell GitHub which branches to compare, __but__ if you have followed all the steps above as indicated, you shouldn't need to adjust this configuration. With that said:  
 
 1. Go to your __Fork__ on GitHub.
 1. Under __Clone or download__, click on __Pull request__.
-1. 
+1. Verify that the right branches are being compared.
+    - `base fork` should be: `ORIGINAL_OWNER/ORIGINAL_REPOSITORY`
+    - `head fork` should be : `YOUR_USERNAME/YOUR_FORK`
+    - both `base` and `compare` should point to `master`
+1. Click on the big green button that says __Create pull request__.
+1. Review your commit message
+    - You may add an optional comment for the reviewer to see.
+1.  Click __Create pull request__ again to submit the pull request.
+
+That's it! Congratulations :clap:. A member of the Strategic Machines team will review your pull request at his or her earliest convenience. Whether the pull request is approved, denied, or if changes are requested, you will receive an email notification as soon as a decision is made.
 
 ---
