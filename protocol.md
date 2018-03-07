@@ -118,9 +118,18 @@ Now go back to your fork on GitHub and refresh the page; your local changes are 
 
 ## Step 7: Submit a pull request to the owner of the repository.
 
-Congratulations, the work you did on your computer is now on GitHub. Now you need to create and [submit a pull request](https://help.github.com/articles/creating-a-pull-request/) to Strategic Machines so that your work can be reviewed and, if approved, merged into the original repository. Pull requests are created to propose changes and collaborate to a repository. 
+Pull requests are created to propose changes and collaborate to a repository, but before going any further, let's do a brief recap. By this point you have: 
 
-1. On GitHub, go to your __Fork__.
+- Finished your work in a __local__ branch
+- Merged that branch into your __local__ `master` branch
+- Pushed those changes to the __remote__ `master`.
+
+This means that the work you did on your computer has been uploaded to your fork on GitHub; at _this_ point, your fork is in sync with your clone. Great!
+
+Now you need to create and [submit a pull request](https://help.github.com/articles/creating-a-pull-request/) to Strategic Machines so that your work can be reviewed and, if approved, merged into the original repository (also known as the upstream). To submit a pull request:  
+
+1. Go to your __Fork__ on GitHub.
 1. Under __Clone or download__, click on __Pull request__.
+1. 
 
 ---
